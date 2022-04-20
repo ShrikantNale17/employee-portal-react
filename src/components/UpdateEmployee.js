@@ -235,7 +235,6 @@ function UpdateEmployee() {
                   required: 'please select your city'
                 })}
                 control={control}
-
               />
 
             </Grid>
