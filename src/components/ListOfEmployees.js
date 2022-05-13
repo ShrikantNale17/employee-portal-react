@@ -85,7 +85,7 @@ function ListOfEmployees() {
       {
         data.length > 0 ?
           <TableContainer component={Paper} sx={{ margin: '20px auto' }}>
-            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            <Table stickyHeader sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead sx={{ fontWeight: 'bold' }}>
                 <TableRow sx={{ backgroundColor: 'aqua', fontFamily: 'serif', fontSize: '20px' }}>
                   <TableCell align='center'>Avatar</TableCell>

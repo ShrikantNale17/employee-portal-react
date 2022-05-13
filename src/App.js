@@ -4,10 +4,12 @@ import ListOfEmployees from './components/ListOfEmployees';
 import AddEmployee from './components/AddEmployee';
 import UpdateEmployee from './components/UpdateEmployee';
 import NotFound from './components/NotFound';
+import { Box, Paper } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
+    <Box component={Paper} p={5} color='ThreeDShadow' bgcolor={'aliceblue'} minHeight={'100%'}>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Navigate to={'/employees'} />}></Route>
@@ -17,7 +19,8 @@ function App() {
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
-    </div>
+    </Box>
+    // </div>
   );
 }
 
