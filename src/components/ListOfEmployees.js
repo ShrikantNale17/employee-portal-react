@@ -78,7 +78,7 @@ function ListOfEmployees() {
         <Typography variant="h4" sx={{ fontFamily: 'serif', fontWeight: 'bold' }} component='u'>
           List of Employees -
         </Typography>
-        <Button variant="contained" onClick={() => navigate('/employees/add')}>
+        <Button variant="contained" onClick={() => navigate('/employee-portal-react/employees/add')}>
           Add Employee
         </Button>
       </Stack>
@@ -108,7 +108,7 @@ function ListOfEmployees() {
                     <TableCell>{row.email}</TableCell>
                     <TableCell>{row.mobile}</TableCell>
                     <TableCell>
-                      <Link to={`/employees/update/${index}`} state={{ row: row, index: index }}><Tooltip title="Edit" placement='left-start'><EditRoundedIcon color='primary' /></Tooltip></Link>
+                      <Link to={`/employee-portal-react/employees/update/${index}`} state={{ row: row, index: index }}><Tooltip title="Edit" placement='left-start'><EditRoundedIcon color='primary' /></Tooltip></Link>
                       <Link to={''} onClick={() => confirmDelete(row)}><Tooltip title="Delete" placement='right-start'><DeleteRoundedIcon color='warning' /></Tooltip></Link>
                     </TableCell>
                   </TableRow>

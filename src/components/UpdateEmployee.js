@@ -85,7 +85,7 @@ function UpdateEmployee() {
     localStorage.setItem('empList', JSON.stringify(arr))
     // console.log(e)
     alert('updated successfully!')
-    navigate('/')
+    navigate('/employee-portal-react')
 
   }
 

@@ -83,7 +83,7 @@ function AddEmployee() {
     let arr = localStorage.getItem('empList') ? JSON.parse(localStorage.getItem('empList')) : []
     arr.push(data)
     localStorage.setItem('empList', JSON.stringify(arr))
-    navigate('/')
+    navigate('/employee-portal-react')
     window.alert('Data added successFully!')
 
   }
