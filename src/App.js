@@ -12,10 +12,10 @@ function App() {
     <Box component={Paper} p={5} color='ThreeDShadow' bgcolor={'aliceblue'} minHeight={'100%'}>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Navigate to={'/employee-portal/employees'} />}></Route>
-          <Route path='/employee-portal/employees' element={<ListOfEmployees />}></Route>
-          <Route path='/employee-portal/employees/add' element={<AddEmployee />}></Route>
-          <Route path='/employee-portal/employees/update/:id' element={<UpdateEmployee />}></Route>
+          <Route path='/employee-portal-react' element={<Navigate to={'/employee-portal-react/employees'} />}></Route>
+          <Route path='/employee-portal-react/employees' element={<ListOfEmployees />}></Route>
+          <Route path='/employee-portal-react/employees/add' element={<AddEmployee />}></Route>
+          <Route path='/employee-portal-react/employees/update/:id' element={<UpdateEmployee />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
