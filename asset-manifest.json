@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/employee-portal-react/static/css/main.0c6de165.css",
-    "main.js": "/employee-portal-react/static/js/main.43a263d6.js",
+    "main.js": "/employee-portal-react/static/js/main.da8c3ff4.js",
     "static/js/787.58dd248a.chunk.js": "/employee-portal-react/static/js/787.58dd248a.chunk.js",
     "index.html": "/employee-portal-react/index.html",
     "main.0c6de165.css.map": "/employee-portal-react/static/css/main.0c6de165.css.map",
-    "main.43a263d6.js.map": "/employee-portal-react/static/js/main.43a263d6.js.map",
+    "main.da8c3ff4.js.map": "/employee-portal-react/static/js/main.da8c3ff4.js.map",
     "787.58dd248a.chunk.js.map": "/employee-portal-react/static/js/787.58dd248a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6de165.css",
-    "static/js/main.43a263d6.js"
+    "static/js/main.da8c3ff4.js"
   ]
 }
